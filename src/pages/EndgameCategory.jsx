@@ -53,7 +53,7 @@ const EndgameCategory = () => {
             fen: "8/8/8/3k4/8/6B1/4N3/K7 w - - 0 1",
             orientation: "white",
             outcome: "winning",
-            difficulty: "intermediate",
+            difficulty: "advanced",
           },
           {
             name: "Rook & Queen vs King",
@@ -110,7 +110,7 @@ const EndgameCategory = () => {
             orientation: "white",
             outcome: "winning",
             fen: "8/8/pk6/1p2K3/2p4R/8/8/8 w - - 0 1",
-            difficulty: "beginner",
+            difficulty: "intermediate",
           },
           {
             name: "3rd/6th Rank Defense",
@@ -194,7 +194,7 @@ const EndgameCategory = () => {
             fen: "8/8/4k1p1/7p/5P1P/5KP1/8/8 b - - 0 ",
             orientation: "black",
             outcome: "drawing",
-            difficulty: "beginner",
+            difficulty: "intermediate",
           },
         ];
       case "bishop":
@@ -215,7 +215,7 @@ const EndgameCategory = () => {
             fen: "8/2k5/8/8/2PP3b/2K2B2/8/8 b - - 0 1",
             orientation: "black",
             outcome: "drawing",
-            difficulty: "beginner",
+            difficulty: "intermediate",
           },
           {
             name: "Flank Pawn Promotion - Winning",
@@ -286,7 +286,7 @@ const EndgameCategory = () => {
           {
             name: "Down a pawn Knight endgame",
             description:
-              "Despite black being down a pawn, black has a really easy chance to draw the game due to being able to sacrifice their own knight for white's last pawn",
+              "Despite black being down a pawn, black has a chance to draw the game due to being able to sacrifice their own knight for white's last pawn",
             fen: "8/2n2kpp/8/3p4/3P4/5N2/4KPPP/8 w - - 0 1",
             orientation: "black",
             outcome: "drawing",
